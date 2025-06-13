@@ -69,5 +69,12 @@ export dists, dist, shortestdist
 export epsdists, ϵdists
 export symdists
 
+###########################
+# optimization operations
+###########################
+include("optimal-connect.jl")
+include("optimal-detwfsa.jl")
+include("optimal-detwfst.jl")
+
 
 # end # module FSM
