@@ -75,6 +75,6 @@ export symdists
 include("optimal-connect.jl")
 include("optimal-detwfsa.jl")
 include("optimal-detwfst.jl")
-
+include("optimal-minimize.jl")
 
 # end # module FSM
