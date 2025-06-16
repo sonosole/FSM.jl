@@ -84,5 +84,7 @@ export rdrdfsa, rdrd
 export epsqv, ϵindegree, ϵtoposort, until_not_eps_states
 export rmeps, rmϵ, rm_acyclic_eps
 
+include("op-combination.jl")
+export ideti
 
 # end # module FSM
