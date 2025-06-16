@@ -76,5 +76,13 @@ include("optimal-connect.jl")
 include("optimal-detwfsa.jl")
 include("optimal-detwfst.jl")
 include("optimal-minimize.jl")
+include("optimal-rmepsilon.jl")
+export connect
+export adet, detwfsa, isdet, issequential, isfunctional
+export tdet, detwfst, det
+export rdrdfsa, rdrd
+export epsqv, ϵindegree, ϵtoposort, until_not_eps_states
+export rmeps, rmϵ, rm_acyclic_eps
+
 
 # end # module FSM
