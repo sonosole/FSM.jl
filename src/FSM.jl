@@ -87,4 +87,10 @@ export rmeps, rmϵ, rm_acyclic_eps
 include("op-combination.jl")
 export ideti
 
+###########################
+# pretty showing operations
+###########################
+include("io-mermaid.jl")
+export mermaid
+
 # end # module FSM
