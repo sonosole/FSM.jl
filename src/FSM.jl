@@ -91,6 +91,8 @@ export ideti
 # pretty showing operations
 ###########################
 include("io-mermaid.jl")
+include("io-graphviz.jl")
 export mermaid
+export dot, dots, savedot, savedots, savewfst, leveldot, saveleveldot, linedot
 
 # end # module FSM
