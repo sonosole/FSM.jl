@@ -95,4 +95,10 @@ include("io-graphviz.jl")
 export mermaid
 export dot, dots, savedot, savedots, savewfst, leveldot, saveleveldot, linedot
 
+###########################
+# creating operations
+###########################
+include("create.jl")
+export linearwfsa, txt2wfsa, dictwfst, dictswfst
+
 # end # module FSM
