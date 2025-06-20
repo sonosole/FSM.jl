@@ -101,4 +101,7 @@ export dot, dots, savedot, savedots, savewfst, leveldot, saveleveldot, linedot
 include("create.jl")
 export linearwfsa, txt2wfsa, dictwfst, dictswfst
 
+include("estr.jl")
+export estr
+
 # end # module FSM
